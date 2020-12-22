@@ -31,6 +31,7 @@ function map(array, cb) {
   var nuevoArray = array.map(function(nuevo){
     return cb(nuevo);
   } );
+  
   return nuevoArray;
 }
 
